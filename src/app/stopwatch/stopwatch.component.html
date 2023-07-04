@@ -1,0 +1,6 @@
+<div>
+  <h2>{{ time }}</h2>
+  <button mat-raised-button color="primary" (click)="startStopTimer()">{{ starterStopper.value ? 'Stop' : 'Start' }}</button>
+  <button mat-raised-button color="accent" (click)="waitTimer()">Wait</button>
+  <button mat-raised-button (click)="resetTimer()">Reset</button>
+</div>
